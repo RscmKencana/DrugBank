@@ -1,0 +1,16 @@
+c:\Users\tri\documents\visual studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Debug\BusinessObjects.dll
+c:\Users\tri\documents\visual studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Debug\BusinessObjects.pdb
+c:\Users\tri\documents\visual studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Debug\System.Data.SQLite.dll
+c:\Users\tri\documents\visual studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Debug\Tiraggo.Core.dll
+c:\Users\tri\documents\visual studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Debug\Tiraggo.DynamicQuery.dll
+c:\Users\tri\documents\visual studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Debug\Tiraggo.Interfaces.dll
+c:\Users\tri\documents\visual studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Debug\Tiraggo.Loader.dll
+c:\Users\tri\documents\visual studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Debug\Tiraggo.SQLiteProvider.dll
+c:\Users\tri\documents\visual studio 2015\Projects\DrugBank\BusinessObjects\obj\x86\Debug\BusinessObjects.csprojResolveAssemblyReference.cache
+c:\Users\tri\documents\visual studio 2015\Projects\DrugBank\BusinessObjects\obj\x86\Debug\BusinessObjects.dll
+c:\Users\tri\documents\visual studio 2015\Projects\DrugBank\BusinessObjects\obj\x86\Debug\BusinessObjects.pdb
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Debug\Tiraggo.Core.pdb
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Debug\Tiraggo.DynamicQuery.pdb
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Debug\Tiraggo.Interfaces.pdb
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Debug\Tiraggo.Loader.pdb
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Debug\Tiraggo.SQLiteProvider.pdb

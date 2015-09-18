@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9E931F58-A6E3-4C68-BF7A-3BC2332BDD9F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessObjects</RootNamespace>
+    <AssemblyName>BusinessObjects</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.96.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Dll\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tiraggo.Core">
+      <HintPath>..\Dll\Tiraggo.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Tiraggo.DynamicQuery">
+      <HintPath>..\Dll\Tiraggo.DynamicQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Tiraggo.Interfaces">
+      <HintPath>..\Dll\Tiraggo.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Tiraggo.js">
+      <HintPath>..\packages\Tiraggo.SQLite.2014.1.0419.0\lib\net40\Tiraggo.js.dll</HintPath>
+    </Reference>
+    <Reference Include="Tiraggo.Loader">
+      <HintPath>..\Dll\Tiraggo.Loader.dll</HintPath>
+    </Reference>
+    <Reference Include="Tiraggo.SQLiteProvider">
+      <HintPath>..\Dll\Tiraggo.SQLiteProvider.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Generated\Cittax.cs" />
+    <Compile Include="Generated\Cogfuncclass.cs" />
+    <Compile Include="Generated\Cogfuncclassgroup.cs" />
+    <Compile Include="Generated\Cogmember.cs" />
+    <Compile Include="Generated\CogmemberHasGi.cs" />
+    <Compile Include="Generated\CogmemberTaxid.cs" />
+    <Compile Include="Generated\Cogorthologousgroup.cs" />
+    <Compile Include="Generated\CogorthologousgroupHasCogfuncclass.cs" />
+    <Compile Include="Generated\CogorthologousgroupHasGeneinfo.cs" />
+    <Compile Include="Generated\CogorthologousgroupHasProtein.cs" />
+    <Compile Include="Generated\CogorthologousgroupHasTaxonomy.cs" />
+    <Compile Include="Generated\Dataset.cs" />
+    <Compile Include="Generated\Divisiontemp.cs" />
+    <Compile Include="Generated\Drugbank.cs" />
+    <Compile Include="Generated\Drugbankaffectedorganism.cs" />
+    <Compile Include="Generated\Drugbankahfscode.cs" />
+    <Compile Include="Generated\Drugbankatccode.cs" />
+    <Compile Include="Generated\Drugbankbrand.cs" />
+    <Compile Include="Generated\Drugbankcalculatedproperty.cs" />
+    <Compile Include="Generated\Drugbankcarrier.cs" />
+    <Compile Include="Generated\Drugbankcarrieraction.cs" />
+    <Compile Include="Generated\Drugbankcarrierpolypeptide.cs" />
+    <Compile Include="Generated\Drugbankcarrierref.cs" />
+    <Compile Include="Generated\Drugbankcategoriestemp.cs" />
+    <Compile Include="Generated\Drugbankcategory.cs" />
+    <Compile Include="Generated\Drugbankdosage.cs" />
+    <Compile Include="Generated\Drugbankdruginteraction.cs" />
+    <Compile Include="Generated\Drugbankdruginteractionstemp.cs" />
+    <Compile Include="Generated\Drugbankenzyme.cs" />
+    <Compile Include="Generated\Drugbankenzymeaction.cs" />
+    <Compile Include="Generated\Drugbankenzymepolypeptide.cs" />
+    <Compile Include="Generated\Drugbankenzymeref.cs" />
+    <Compile Include="Generated\Drugbankexperimentalproperty.cs" />
+    <Compile Include="Generated\Drugbankexternalidentifier.cs" />
+    <Compile Include="Generated\Drugbankexternallink.cs" />
+    <Compile Include="Generated\Drugbankfoodinteraction.cs" />
+    <Compile Include="Generated\Drugbankgeneralref.cs" />
+    <Compile Include="Generated\Drugbankgroup.cs" />
+    <Compile Include="Generated\DrugbankHasDrugbankcategory.cs" />
+    <Compile Include="Generated\DrugbankHasDrugbankpatent.cs" />
+    <Compile Include="Generated\Drugbankmanufacturer.cs" />
+    <Compile Include="Generated\Drugbankmixture.cs" />
+    <Compile Include="Generated\Drugbankpackager.cs" />
+    <Compile Include="Generated\Drugbankpatent.cs" />
+    <Compile Include="Generated\Drugbankpatentstemp.cs" />
+    <Compile Include="Generated\Drugbankprice.cs" />
+    <Compile Include="Generated\Drugbankproteinsequence.cs" />
+    <Compile Include="Generated\Drugbanksecondaccessionnumber.cs" />
+    <Compile Include="Generated\Drugbanksynonym.cs" />
+    <Compile Include="Generated\Drugbanktarget.cs" />
+    <Compile Include="Generated\Drugbanktargetaction.cs" />
+    <Compile Include="Generated\Drugbanktargetpolypeptide.cs" />
+    <Compile Include="Generated\Drugbanktargetref.cs" />
+    <Compile Include="Generated\Drugbanktaxonomy.cs" />
+    <Compile Include="Generated\Drugbanktaxonomysubstructure.cs" />
+    <Compile Include="Generated\Drugbanktransporter.cs" />
+    <Compile Include="Generated\Drugbanktransporteraction.cs" />
+    <Compile Include="Generated\Drugbanktransporterpolypeptide.cs" />
+    <Compile Include="Generated\Drugbanktransporterref.cs" />
+    <Compile Include="Generated\Names.cs" />
+    <Compile Include="Generated\Ncbicitationtemp.cs" />
+    <Compile Include="Generated\Nodes.cs" />
+    <Compile Include="Generated\Omim.cs" />
+    <Compile Include="Generated\Pirsf.cs" />
+    <Compile Include="Generated\Proteindrugbank.cs" />
+    <Compile Include="Generated\Proteindrugbanktemp.cs" />
+    <Compile Include="Generated\ProteinHasDrugbank.cs" />
+    <Compile Include="Generated\ProteinHasDrugbankascarriers.cs" />
+    <Compile Include="Generated\ProteinHasDrugbankasenzyme.cs" />
+    <Compile Include="Generated\ProteinHasDrugbankastransporters.cs" />
+    <Compile Include="Generated\Taxonomy.cs" />
+    <Compile Include="Generated\Unirefentry.cs" />
+    <Compile Include="Generated\Unirefmember.cs" />
+    <Compile Include="Generated\Widtable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

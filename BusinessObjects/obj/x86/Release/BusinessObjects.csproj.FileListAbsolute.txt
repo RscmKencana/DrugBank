@@ -1,0 +1,15 @@
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Release\BusinessObjects.dll
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Release\BusinessObjects.pdb
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Release\System.Data.SQLite.dll
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Release\Tiraggo.Core.dll
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Release\Tiraggo.DynamicQuery.dll
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Release\Tiraggo.Interfaces.dll
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Release\Tiraggo.Loader.dll
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Release\Tiraggo.SQLiteProvider.dll
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Release\Tiraggo.Core.pdb
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Release\Tiraggo.DynamicQuery.pdb
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Release\Tiraggo.Interfaces.pdb
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Release\Tiraggo.Loader.pdb
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\bin\x86\Release\Tiraggo.SQLiteProvider.pdb
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\obj\x86\Release\BusinessObjects.dll
+c:\Users\tri\Documents\Visual Studio 2015\Projects\DrugBank\BusinessObjects\obj\x86\Release\BusinessObjects.pdb
